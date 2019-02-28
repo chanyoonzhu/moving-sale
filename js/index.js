@@ -12,13 +12,16 @@
     },
     
     options: {},
+
+    data: data,
     
     items: [],
     
     init: function(options) {
       var self = this;
       self.options = $.extend({}, self.defaultOptions, options);
-      self.getData(self.options.count, function(){
+      console.log(self.data);
+      self.getData(self.data, function(){
         var $container = self.options.$container;
         var html = self.generateHtml(self.options.$template, self.items);
         $container.append(html);
@@ -27,17 +30,14 @@
       });
     },
     
-    getData: function(count, callback) {
-      for (var i = 0; i < count; i++) {
-        var imageHeight = this.getRandomIntInclusive(10, 45) * 10;
+    getData: function(data, callback) {
+      for (var i = 0; i < data.length; i++) {
+        // var imageHeight = this.getRandomIntInclusive(10, 45) * 10;
         this.items.push({
-          image: 'https://unsplash.it/'+this.options.imgWidth+'/'+imageHeight+'/?random',
-          title: faker.lorem.sentence(),
-          source: faker.company.companyName(),
-          pinCount: this.getRandomIntInclusive(1, 999),
-          avatar: faker.image.avatar(),
-          name: faker.name.findName(),
-          tagline: faker.name.title(),
+          image: 'images/' + data[i].id.toString() + '.jpg',
+          title: data[i].title,
+          source: data[i].desc,
+          pinCount: "$ " + data[i].price.toString(),
         });
       }
       if (callback) callback();
@@ -68,6 +68,20 @@
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min + 1)) + min;
     },
+
+    loadJSON: function (file, callback) {   
+
+      var xobj = new XMLHttpRequest();
+          xobj.overrideMimeType("application/json");
+      xobj.open('GET', file, true);
+      xobj.onreadystatechange = function () {
+            if (xobj.readyState == 4 && xobj.status == "200") {
+              // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+              callback(xobj.responseText);
+            }
+      };
+      xobj.send(null);  
+   }
 
   };
   
