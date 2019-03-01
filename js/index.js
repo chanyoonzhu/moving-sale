@@ -37,7 +37,7 @@
           image: 'images/' + data[i].id.toString() + '.jpg',
           title: data[i].title,
           source: data[i].desc,
-          pinCount: "$ " + data[i].price.toString(),
+          pinCount: "$" + data[i].price.toString(),
         });
       }
       if (callback) callback();
