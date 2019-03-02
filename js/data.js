@@ -101,7 +101,7 @@ var data = [
         "id": 15,
         "title": "Xiaomi Portable Phone Charger 小米充电器",
         "desc": "10400mh",
-        "price": 3,
+        "price": 5,
         "category": "electronics"
     },
     {
@@ -138,5 +138,12 @@ var data = [
         "desc": "",
         "price": 6,
         "category": "baby"
+    },
+    {
+        "id": 21,
+        "title": "Portable Phone Charger 手机充电器",
+        "desc": "10000mh",
+        "price": 5,
+        "category": "electronics"
     },
 ];
