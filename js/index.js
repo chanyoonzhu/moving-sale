@@ -31,12 +31,14 @@
     
     getData: function(data, callback) {
       for (var i = 0; i < data.length; i++) {
-        this.items.push({
-          image: 'images/' + data[i].id.toString() + '.jpg',
-          title: data[i].title,
-          source: data[i].desc,
-          pinCount: "$" + data[i].price.toString(),
-        });
+        if (!data[i].sold) {
+          this.items.push({
+            image: 'images/' + data[i].id.toString() + '.jpg',
+            title: data[i].title,
+            source: data[i].desc,
+            pinCount: "$" + data[i].price.toString(),
+          });
+        }
       }
       if (callback) callback();
     },

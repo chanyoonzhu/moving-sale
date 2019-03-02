@@ -21,7 +21,7 @@ var data = [
         "desc": "link: https://tinyurl.com/y2vlol7n, comes with free mattress, sheet, mesh liner",
         "price": 60,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 2,
@@ -37,7 +37,7 @@ var data = [
         "desc": "",
         "price": 10,
         "category": ["kid"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 4,
@@ -109,7 +109,7 @@ var data = [
         "desc": "original price - 35",
         "price": 10,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 13,
@@ -117,7 +117,7 @@ var data = [
         "desc": "",
         "price": 5,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 14,
@@ -125,7 +125,7 @@ var data = [
         "desc": "",
         "price": 5,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 15,
@@ -141,7 +141,7 @@ var data = [
         "desc": "0m",
         "price": 0,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 17,
@@ -149,7 +149,7 @@ var data = [
         "desc": "0-3m",
         "price": 0,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 18,
@@ -157,7 +157,7 @@ var data = [
         "desc": "",
         "price": 1,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 19,
@@ -165,7 +165,7 @@ var data = [
         "desc": "",
         "price": 2,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 20,
@@ -197,7 +197,7 @@ var data = [
         "desc": "with a selection of soothing music, original price $60",
         "price": 20,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 23,
@@ -205,7 +205,7 @@ var data = [
         "desc": "BFH125",
         "price": 10,
         "category": ["baby", "electronics"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 24,
@@ -245,7 +245,7 @@ var data = [
         "desc": "",
         "price": 0,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 30,
@@ -261,6 +261,6 @@ var data = [
         "desc": "",
         "price": 35,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
 ];
