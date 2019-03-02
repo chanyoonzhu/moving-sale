@@ -20,7 +20,6 @@
     init: function(options) {
       var self = this;
       self.options = $.extend({}, self.defaultOptions, options);
-      console.log(self.data);
       self.getData(self.data, function(){
         var $container = self.options.$container;
         var html = self.generateHtml(self.options.$template, self.items);
@@ -32,7 +31,6 @@
     
     getData: function(data, callback) {
       for (var i = 0; i < data.length; i++) {
-        // var imageHeight = this.getRandomIntInclusive(10, 45) * 10;
         this.items.push({
           image: 'images/' + data[i].id.toString() + '.jpg',
           title: data[i].title,
@@ -61,12 +59,6 @@
       $container.imagesLoaded().progress(function() {
         $container.masonry('layout');
       });
-    },
-    
-    getRandomIntInclusive: function (min, max) {
-      min = Math.ceil(min);
-      max = Math.floor(max);
-      return Math.floor(Math.random() * (max - min + 1)) + min;
     },
 
     loadJSON: function (file, callback) {   
