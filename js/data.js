@@ -113,10 +113,10 @@ var data = [
     },
     {
         "id": 11,
-        "title": "Blackout Shades 100% 遮光窗帘",
+        "title": "Blackout Shades 100% 遮光窗帘(还剩一个)",
         "desc": "size fits Kraettli windows",
-        "price": 5,
-        "category": ["decoration"],
+        "price": 3,
+        "category": ["misc"],
         "sold": false,
     },
     {
