@@ -1,5 +1,21 @@
 var data = [
     {
+        "id": 34,
+        "title": "IKEA Table 宜家拉克方桌",
+        "desc": "",
+        "price": 5,
+        "category": ["furniture"],
+        "sold": false,
+    },
+    {
+        "id": 35,
+        "title": "IKEA memory foam pilow (2 pieces) 宜家枕芯两个送原装枕套",
+        "desc": "",
+        "price": 10,
+        "category": ["misc"],
+        "sold": false,
+    },
+    {
         "id": 1,
         "title": "IKEA Artist's Figure 宜家小人",
         "desc": "",
