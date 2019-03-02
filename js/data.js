@@ -29,7 +29,7 @@ var data = [
         "desc": "40cm * 60cm",
         "price": 2,
         "category": ["stationary"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 3,
