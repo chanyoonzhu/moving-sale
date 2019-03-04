@@ -85,7 +85,7 @@ var data = [
         "desc": "1.35 gallon, cool mist, no need for any maintenance, very quiet",
         "price": 20,
         "category": ["appliance"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 8,
@@ -229,7 +229,7 @@ var data = [
         "desc": "comes with staples",
         "price": 2,
         "category": ["stationary"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 25,
