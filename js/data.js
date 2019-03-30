@@ -309,7 +309,7 @@ var data = [
         "desc": "",
         "price": 1,
         "category": ["stationary"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 26,
@@ -373,7 +373,7 @@ var data = [
         "desc": "",
         "price": 0,
         "category": ["misc"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 44,
