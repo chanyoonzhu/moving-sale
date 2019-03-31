@@ -5,7 +5,7 @@ var data = [
         "desc": "",
         "price": 5,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 35,
