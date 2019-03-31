@@ -13,7 +13,7 @@ var data = [
         "desc": "",
         "price": 10,
         "category": ["misc"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 1,
@@ -53,7 +53,7 @@ var data = [
         "desc": "original price 79",
         "price": 38,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 36,
@@ -85,7 +85,7 @@ var data = [
         "desc": "",
         "price": 5,
         "category": ["kid"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 31,
@@ -133,7 +133,7 @@ var data = [
         "desc": "package not opened, original price $60",
         "price": 30,
         "category": ["kid"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 5,
@@ -149,7 +149,7 @@ var data = [
         "desc": "package not opened, original price $27",
         "price": 15,
         "category": ["kid"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 7,
