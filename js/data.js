@@ -37,7 +37,7 @@ var data = [
         "desc": "Sharp LC-55P6000U, only $140 if pick up in May",
         "price": 190,
         "category": ["appliance"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 47,
@@ -45,7 +45,7 @@ var data = [
         "desc": "original price 230，only $90 if pick up in May",
         "price": 130,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 48,
@@ -61,7 +61,7 @@ var data = [
         "desc": "available after May 10th, original price 39.99",
         "price": 18,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 37,
@@ -173,7 +173,7 @@ var data = [
         "desc": "will deliver and assemble for free",
         "price": 58,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 10,
