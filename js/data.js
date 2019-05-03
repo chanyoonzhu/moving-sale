@@ -69,7 +69,7 @@ var data = [
         "desc": "available after May 10th, original price 29.99",
         "price": 15,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 38,
@@ -589,7 +589,7 @@ var data = [
         "desc": "1 desk and 2 chairs",
         "price": 9,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 75,
