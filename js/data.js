@@ -261,7 +261,7 @@ var data = [
         "desc": "",
         "price": 6,
         "category": ["baby"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 21,
@@ -509,7 +509,7 @@ var data = [
         "desc": "used only once. was a gift from a friend so I'm giving it away for free",
         "price": 0,
         "category": ["misc"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 65,
@@ -605,7 +605,7 @@ var data = [
         "desc": "small",
         "price": 2,
         "category": ["kitchen"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 77,
@@ -637,7 +637,7 @@ var data = [
         "desc": "for one person",
         "price": 3,
         "category": ["kitchen"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 81,
