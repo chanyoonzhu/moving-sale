@@ -341,7 +341,7 @@ var data = [
         "desc": "",
         "price": 6,
         "category": ["misc"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 33,
@@ -429,7 +429,7 @@ var data = [
         "desc": "out of black&white ink",
         "price": 2,
         "category": ["stationary"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 55,
@@ -549,7 +549,7 @@ var data = [
         "desc": "",
         "price": 2,
         "category": ["sports"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 70,
@@ -557,7 +557,7 @@ var data = [
         "desc": "",
         "price": 0,
         "category": ["sports"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 71,
@@ -573,7 +573,7 @@ var data = [
         "desc": "",
         "price": 1,
         "category": ["sports"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 73,
@@ -613,7 +613,7 @@ var data = [
         "desc": "large and stable. adjustable back/head support",
         "price": 25,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 78,
@@ -653,6 +653,6 @@ var data = [
         "desc": "very sturdy",
         "price": 15,
         "category": ["furniture"],
-        "sold": false,
+        "sold": true,
     },
 ];
