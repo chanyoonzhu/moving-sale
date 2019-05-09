@@ -77,7 +77,7 @@ var data = [
         "desc": "used for 1 year, original price 200",
         "price": 85,
         "category": ["electronics"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 39,
@@ -165,7 +165,7 @@ var data = [
         "desc": "link: https://tinyurl.com/y5fueshk",
         "price": 65,
         "category": ["appliance"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 9,
@@ -317,7 +317,7 @@ var data = [
         "desc": "",
         "price": 15,
         "category": ["game"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 27,
@@ -325,7 +325,7 @@ var data = [
         "desc": "package open, but never played",
         "price": 15,
         "category": ["game"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 28,
@@ -485,7 +485,7 @@ var data = [
         "desc": "available after May 15th, 2019",
         "price": 8,
         "category": ["stationary"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 62,
@@ -629,7 +629,7 @@ var data = [
         "desc": "好用！",
         "price": 2,
         "category": ["misc"],
-        "sold": false,
+        "sold": true,
     },
     {
         "id": 80,
